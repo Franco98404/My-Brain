@@ -3,7 +3,7 @@ tipo: entidad
 tags: [empresa, software, latam, flutter, supabase, consultora]
 creado: 2026-06-07
 actualizado: 2026-06-07
-fuentes: [memoria-exportada-2026-06-07, memoria-exportada-2-2026-06-07, memoria-chatgpt-2026-06-07]
+fuentes: [memoria-exportada-2026-06-07, memoria-exportada-2-2026-06-07, memoria-chatgpt-2026-06-07, fuente-clickup-workspace-2026-06-07]
 ---
 
 # Eurekant LLC
@@ -36,6 +36,8 @@ Consultora de desarrollo de software enfocada en LATAM. Construye aplicaciones m
 | Matías | Comercial |
 
 Roles definidos en la empresa: diseñadora UX/UI, frontend, backend, especialista en bases de datos, DevOps, Project Manager.
+
+> Roster completo (activos y bajas) y gestión de RRHH en [[equipo-eurekant]]. Nota: según ClickUp, **Sergio Muguruza** (PM/Tech Lead que aparece en varios SRS/proyectos) y **Daniela Kinstler** (UI/UX) figuran como bajas.
 
 ## Stack principal
 
@@ -85,15 +87,32 @@ Ver [[stack-tecnico-eurekant]] para detalle completo.
 
 ## Proyectos activos (clientes)
 
-- [[comunidad-cima]] — app clínica odontológica
-- [[padelgo]] — plataforma de pádel
-- [[synergys]] — plataforma medicina laboral
+- [[comunidad-cima]] — app clínica odontológica (15 sprints; Fase 2 = CRM propio)
+- [[padelgo]] — plataforma de pádel (19 sprints, mayor alcance)
+- [[synergys]] — plataforma SaaS de salud ocupacional
+- [[rental-sun]] — app servicios de playa (MVP, antes "Repo Ya")
+- [[ikigai]] — plataforma transporte corporativo (fase SRS)
+- [[pikium]] — proyecto GIS/QGIS (CERRADO dic-2025)
+
+## Productos propios (SaaS)
+
+- [[schoolfy-365]] — gestión escolar / comunicación institución-familias
+- [[tasty-control]] — gestión gastronómica con fidelización
+- Medify Plus — gestión de turnos médicos (folder casi vacío; *a aclarar*)
 
 ## Proyectos internos
 
+- [[eurekant-core]] — folder de procesos y gobernanza
 - [[eurekant-client-hub]] — portal de clientes (en desarrollo)
 - [[tooling-eurekant]] — suite de skills de Claude
 - [[automatizacion-mercury-clickup]] — sincronización financiera
+
+## Procesos y operación (ClickUp)
+
+- [[eurekant-handbook]] — manual operativo central (cultura, onboarding, pagos)
+- [[pipeline-comercial-clickup]] — embudo Lead → SRS y los 9 SRS aprobados
+- [[equipo-eurekant]] — RRHH, roles, contractors
+- [[finanzas-eurekant-clickup]] — tracking de transacciones (Mercury sync)
 
 ## Ver también
 

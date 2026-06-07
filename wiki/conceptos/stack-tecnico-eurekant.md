@@ -3,12 +3,14 @@ tipo: concepto
 tags: [flutter, supabase, stack, tecnologia, eurekant]
 creado: 2026-06-07
 actualizado: 2026-06-07
-fuentes: [memoria-exportada-2026-06-07, memoria-exportada-2-2026-06-07]
+fuentes: [memoria-exportada-2026-06-07, memoria-exportada-2-2026-06-07, fuente-clickup-workspace-2026-06-07]
 ---
 
 # Stack Técnico — Eurekant
 
 Stack de tecnologías estándar usado por [[eurekant]] en proyectos de clientes.
+
+> Confirmado por la doc técnica de ClickUp ("Base de conocimiento técnico" `8c90e0d-10194`): el stack real combina **FlutterFlow + Flutter** + **Supabase (Postgres, RLS, CLI, migraciones versionadas en GitHub)** + **Firebase (envío de emails)** + **OneSignal**. Incluye guías de **ARCA/AFIP** (facturación electrónica) y Guía de Inicialización de Claude Code. Trackers internos por herramienta (FlutterFlow, Supabase, ClickUp) en el folder Internal Tools.
 
 ## Mobile / Web
 

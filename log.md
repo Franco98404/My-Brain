@@ -76,3 +76,15 @@ Se creó la estructura base de la wiki:
 - Carpetas: `raw/`, `wiki/` con todas sus subcarpetas
 - Primera ingesta: el documento fundacional del patrón LLM Wiki (ver [[fuente-llm-wiki-pattern]])
 - Páginas creadas: [[llm-wiki-pattern]], [[fuente-llm-wiki-pattern]], [[overview]]
+
+## [2026-06-07 - 23:39:57] ingesta | Workspace de ClickUp — estructura + documentos
+
+Ingesta de solo lectura del workspace de ClickUp (ID 9002039309) con 5 agentes en paralelo: 4 por dominio (Development cliente, Development producto/interno, CRM+BI, HR+Finance+Monitoring) y 1 dedicado a Documentos arrancando por el Eurekant Handbook (bola de nieve). Alcance: estructura + docs, sin tareas individuales.
+
+Creadas (entidades): rental-sun, ikigai, schoolfy-365, pikium, eurekant-core.
+Creados (conceptos): eurekant-handbook, pipeline-comercial-clickup, equipo-eurekant, finanzas-eurekant-clickup.
+Creada (fuente): fuente-clickup-workspace-2026-06-07.
+Enriquecidas: eurekant (equipo/bajas, productos propios, proyectos, procesos), synergys (SaaS white-label, clientes, ajustes), comunidad-cima (clientes Fadel/Ceballos, Fase 2 CRM, 15 sprints), padelgo (Samuel Han, 19 sprints, SRS Adenda), stack-tecnico-eurekant (FlutterFlow+Supabase+Firebase, ARCA/AFIP).
+Actualizados: index.md, overview.md.
+
+Pendientes a aclarar con Franco: "Finance App" (folder sin doc), "Portal Municipal" (gimnasio vs municipio), Medify Plus (casi vacío). Clientes con SRS aprobado sin página: Bagó, MDL Producciones, P2P Playa, Genelec, Gestoría 360, Destino Traful.
