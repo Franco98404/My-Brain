@@ -94,7 +94,7 @@ El LLM lee `index.md` primero al responder preguntas para saber qué páginas ex
 Registro cronológico append-only. Formato de cada entrada:
 
 ```markdown
-## [YYYY-MM-DD] tipo | descripción breve
+## [YYYY-MM-DD - HH:MM:SS] tipo | descripción breve
 
 Detalle de lo que se hizo: qué fuente se procesó, qué páginas se crearon/actualizaron, qué se descubrió.
 ```
@@ -215,15 +215,17 @@ setup: estructura inicial de la wiki
 
 Cuando Franco pide hacer un commit, el LLM debe:
 
-1. **Mostrar el mensaje de commit propuesto** antes de ejecutar nada.
+1. **Mostrar el mensaje de commit propuesto** antes de ejecutar nada. El mensaje tiene dos partes:
+   - **Título:** `<tipo>(<scope>): <descripción breve>`
+   - **Descripción:** 1-3 líneas explicando qué se hizo y por qué (en español).
 2. **Mostrar el resumen de cambios** con este formato:
    ```
-   Archivos nuevos:     wiki/entidades/foo.md, wiki/fuentes/bar.md
+   Archivos nuevos:      wiki/entidades/foo.md, wiki/fuentes/bar.md
    Archivos modificados: index.md, log.md
-   Archivos eliminados: (ninguno)
+   Archivos eliminados:  (ninguno)
    ```
 3. **Esperar confirmación** de Franco.
-4. Una vez confirmado: ejecutar `git add`, `git commit` y `git push` en secuencia.
+4. Una vez confirmado: ejecutar `git add`, `git commit` (con título y descripción) y `git push` en secuencia.
 
 **Regla:** nunca hacer commit sin mostrar primero el mensaje y el resumen de cambios.
 
