@@ -184,6 +184,51 @@ Para información detallada leer: [[franco-cruz]], [[eurekant]], [[stack-tecnico
 
 ---
 
+## Git workflow
+
+### Branches
+No se usan branches. Todo va directo a `master`.
+
+### Formato de commits
+
+```
+<tipo>(<scope opcional>): <descripción breve>
+```
+
+**Tipos:**
+- `setup` — configuración de la wiki o del repo
+- `ingesta` — nueva fuente procesada
+- `update` — actualización de página existente
+- `query` — exploración/respuesta guardada en `wiki/exploraciones/`
+- `lint` — correcciones de estructura, links, limpieza
+
+**Ejemplos:**
+```
+ingesta(eurekant): agrega fuente sobre modelo de negocio
+update(franco-cruz): actualiza stack técnico
+query: agrega exploración comparación RAG vs wiki
+lint: corrige páginas huérfanas y actualiza index
+setup: estructura inicial de la wiki
+```
+
+### Flujo al hacer un commit
+
+Cuando Franco pide hacer un commit, el LLM debe:
+
+1. **Mostrar el mensaje de commit propuesto** antes de ejecutar nada.
+2. **Mostrar el resumen de cambios** con este formato:
+   ```
+   Archivos nuevos:     wiki/entidades/foo.md, wiki/fuentes/bar.md
+   Archivos modificados: index.md, log.md
+   Archivos eliminados: (ninguno)
+   ```
+3. **Esperar confirmación** de Franco.
+4. Una vez confirmado: ejecutar `git add`, `git commit` y `git push` en secuencia.
+
+**Regla:** nunca hacer commit sin mostrar primero el mensaje y el resumen de cambios.
+
+---
+
 ## Notas para el LLM
 
 - Al inicio de cada sesión, leer este archivo + `index.md` + las últimas 5 entradas de `log.md`.
