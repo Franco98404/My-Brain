@@ -38,7 +38,7 @@
 - [[fuente-llm-wiki-pattern]] — gist de Andrej Karpathy (4 abril 2026, 5k+ stars)
 
 ## Exploraciones
-_— vacío —_
+- [[modelo-comercial-scoping]] — análisis del modelo de Scoping y precio fijo; funnel adoptado 2026-06-07
 
 ## Overview
 - [[overview]] — síntesis de alto nivel del conocimiento acumulado

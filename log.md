@@ -5,6 +5,16 @@ Filtrar entradas: `grep "^## \[" log.md | tail -10`
 
 ---
 
+## [2026-06-07] exploracion | Modelo comercial Scoping y precio fijo
+
+Conversación extensa sobre cómo resolver el bucle "necesito SRS para dar precio → cliente no paga antes de saber el precio".
+Análisis con LLM Council (5 asesores + peer review + chairman).
+Decisión: Scoping gratis, SRS en semana 1 del proyecto ya cobrando.
+Páginas creadas: [[modelo-comercial-scoping]]
+Páginas actualizadas: [[estructura-comercial-eurekant]], index
+
+---
+
 ## [2026-06-07] ingesta | Memoria de ChatGPT — intereses personales, proyectos nuevos
 
 Fuente: `raw/notas/memoria-chatgpt-2026-06-07.md`
