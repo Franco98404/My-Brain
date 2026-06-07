@@ -229,6 +229,12 @@ Cuando Franco pide hacer un commit, el LLM debe:
 
 **Regla:** nunca hacer commit sin mostrar primero el mensaje y el resumen de cambios.
 
+### Cambios externos
+
+Franco puede editar archivos directamente en Obsidian o desde otra sesión de Claude (Cowork), por lo que el repo local puede tener cambios o commits que esta sesión no conoce. Ante cualquier pedido de commit o push, **siempre ejecutar `git status` primero** para ver el estado real del repo antes de asumir que no hay nada pendiente.
+
+Si hay cambios que esta sesión no realizó y falta información para armar la descripción del commit, **ejecutar `git diff` para leer exactamente qué cambió** y construir la descripción en base a eso, sin necesitar que Franco lo explique.
+
 ---
 
 ## Notas para el LLM
